@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="BrightWave helps small businesses build modern, high-converting digital experiences." />
+  <title>BrightWave Digital</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="BrightWave home">
+        <span class="brand-mark">B</span>
+        <span>BrightWave</span>
+      </a>
+
+      <button class="menu-button" id="menuButton" aria-label="Open navigation" aria-expanded="false">☰</button>
+
+      <nav class="site-nav" id="siteNav">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="nav-cta">Get a quote</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Digital solutions for growing businesses</p>
+          <h1>Web experiences that help your business move forward.</h1>
+          <p class="hero-text">We design responsive websites, improve user experience, and build practical digital products for ambitious teams.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="button primary">Start a project</a>
+            <a href="#work" class="button secondary">View our work</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>40+</strong><span>Projects delivered</span></div>
+            <div><strong>96%</strong><span>Client satisfaction</span></div>
+            <div><strong>3 yrs</strong><span>Average partnership</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Dashboard preview">
+          <div class="visual-topbar">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="visual-body">
+            <div class="metric-card large">
+              <p>Monthly growth</p>
+              <strong>+28.4%</strong>
+              <div class="chart-bars">
+                <i style="height:35%"></i><i style="height:48%"></i><i style="height:42%"></i><i style="height:67%"></i><i style="height:61%"></i><i style="height:82%"></i><i style="height:95%"></i>
+              </div>
+            </div>
+            <div class="mini-grid">
+              <div class="metric-card"><p>Conversions</p><strong>1,284</strong></div>
+              <div class="metric-card"><p>Visitors</p><strong>18.6K</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">What we do</p>
+          <h2>Simple services, meaningful results.</h2>
+          <p>We focus on practical design and development that supports real business goals.</p>
+        </div>
+        <div class="card-grid three">
+          <article class="service-card">
+            <span class="icon">01</span>
+            <h3>Website Design</h3>
+            <p>Responsive, accessible interfaces designed around your customers and brand.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon">02</span>
+            <h3>Frontend Development</h3>
+            <p>Clean HTML, CSS, JavaScript, and Vue.js implementation for modern web products.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon">03</span>
+            <h3>UI/UX Improvement</h3>
+            <p>Usability reviews, layout improvements, and interaction refinements for existing products.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="work">
+      <div class="container">
+        <div class="section-heading split">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2>Built to look good and work well.</h2>
+          </div>
+          <p>Example case studies that can be replaced with your own university or personal projects.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-preview preview-one"><span>Analytics Dashboard</span></div>
+            <div class="project-content"><p>Web Application</p><h3>Northstar Analytics</h3></div>
+          </article>
+          <article class="project-card">
+            <div class="project-preview preview-two"><span>Online Learning</span></div>
+            <div class="project-content"><p>Responsive Website</p><h3>LearnSpace Academy</h3></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">Why BrightWave</p>
+          <h2>Small team. Clear communication. Reliable delivery.</h2>
+        </div>
+        <div class="about-copy">
+          <p>We combine thoughtful design with maintainable code. Every project begins with understanding the problem before choosing the technology.</p>
+          <ul>
+            <li>Mobile-first responsive layouts</li>
+            <li>Accessible and user-friendly interfaces</li>
+            <li>Clear project updates and documentation</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contact">
+      <div class="container cta-card">
+        <div>
+          <p class="eyebrow light">Have a project in mind?</p>
+          <h2>Let’s create something useful together.</h2>
+        </div>
+        <a class="button white" href="mailto:hello@example.com">hello@example.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> BrightWave Digital.</p>
+      <p>Designed and developed as a portfolio project.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
