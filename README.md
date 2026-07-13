@@ -1,4 +1,4 @@
-# BrightWave Company Landing Page
+# Company Landing Page
 
 A responsive company landing page built with HTML, CSS, and vanilla JavaScript.
 
